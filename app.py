@@ -28,7 +28,7 @@ html_temp = """
 with st.sidebar:
     st.markdown("""
     # About 
-    Summarizer is a helper tool built with [ElevenLabs](https://elevenlabs.io/) and [Cohere](https://cohere.com/) to help summarize great texts and listen to a synthesis of them.
+    Summarizer is a helper tool built with [ElevenLabs](https://elevenlabs.io/) and [Cohere](https://cohere.com/) to help summarize long texts and listen to a synthesis of them.
     """)
     st.markdown(html_temp.format("rgba(55, 53, 47, 0.16)"),unsafe_allow_html=True)
     st.markdown("""
